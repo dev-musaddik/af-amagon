@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/af-amagon/static/css/main.79646737.css",
+    "main.js": "/af-amagon/static/js/main.ae6c9725.js",
+    "static/js/787.7dc5c768.chunk.js": "/af-amagon/static/js/787.7dc5c768.chunk.js",
+    "static/media/watchweblogo.png": "/af-amagon/static/media/watchweblogo.66a2fa32a09b126ae7ce.png",
+    "index.html": "/af-amagon/index.html",
+    "main.79646737.css.map": "/af-amagon/static/css/main.79646737.css.map",
+    "main.ae6c9725.js.map": "/af-amagon/static/js/main.ae6c9725.js.map",
+    "787.7dc5c768.chunk.js.map": "/af-amagon/static/js/787.7dc5c768.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79646737.css",
+    "static/js/main.ae6c9725.js"
+  ]
+}
