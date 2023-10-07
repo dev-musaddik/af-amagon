@@ -1,0 +1,82 @@
+.navbar {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px 10px; */
+  color:orange;
+  width: 100%;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid red;
+}
+.navbar > .logo {
+  display: flex;
+  flex: 1;
+  /* padding-left: 20px; */
+  padding: 20px 50px;
+}
+.navbar > .logo > a > img {
+  width: 100px;
+  transform: scale(0.9);
+}
+.navbar > .menu {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+}
+.navbar > .menu > ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40px;
+}
+.navbar > .menu > ul > li {
+  display: flex;
+  border: .1px solid red;
+  background-color: rgb(57, 11, 11);
+  padding: 6px 13px;
+  position: relative;
+  z-index: 100;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgb(255, 0, 0);
+}
+
+.navbar > .menu > ul > li::after {
+  content: "";
+  width: 0%;
+  height: 100%;
+  background-color: red !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all linear 0.4s;
+  z-index: -1;
+}
+
+.navbar > .menu > ul > li:hover::after {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar > .logo > a>img {
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
+  }
+  .navbar > .logo {
+    padding: 10px 10px;
+  }
+  .navbar > .menu {
+    display: flex;
+    flex: 2;
+    justify-content: flex-start;
+  }
+  .navbar > .menu > ul {
+    gap: 20px;
+  }
+  .navbar > .menu > ul > li {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}
